@@ -53,6 +53,10 @@
   --ts-var-button--tertiary--hover-background: initial;
 }
 
+.pinboard-tab-module__tabNameContainer .pinboard-tab-module__tabNameEditor.pinboard-tab-module__tabHighlightOnSelected {
+  color: var(--ao-var-primary-color);
+}
+
 /* body {
  background: var(--ts-var-root-background) !important;
  color: var(--ao-var-white) !important;
