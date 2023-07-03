@@ -14,6 +14,7 @@
   --ao-var-link-color: #00747A;
   --ao-var-selectable-row-hover: #F5F6F8;
   --ao-var-row-hover-table-row: #E5F9F9;
+  --ao-var-border-color: #E3E3E3;
 	
   /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
@@ -75,12 +76,12 @@
   --ts-var-chip-border-radius: initial;
   --ts-var-chip-title-font-family: var(--ts-var-root-font-family);
   --ts-var-chip-box-shadow: initial;
-  --ts-var-chip-background: initial;
+  --ts-var-chip-background: #EAEDF1;
   --ts-var-chip-color: var(--ts-var-root-color);
-  --ts-var-chip--hover-background:initial;
-  --ts-var-chip--hover-color:var(--ts-var-root-color);
-  --ts-var-chip--active-background:initial;
-  --ts-var-chip--active-color:initial;
+  --ts-var-chip--hover-background: #D7DADE;
+  --ts-var-chip--hover-color: var(--ts-var-root-color);
+  --ts-var-chip--active-background: #EAEDF1;
+  --ts-var-chip--active-color: var(--ts-var-root-color);
 
   /* Axis */
   --ts-var-axis-title-color: var(--ts-var-root-color);
@@ -129,5 +130,9 @@
 
 .menu-module__item.menu-module__itemActive>.menu-module__itemInfo>.menu-module__itemText p {
   color: var(--ts-var-root-color);
+}
+
+.chip-base-module__filter {
+  border-color: var(--ao-var-border-color);
 }
 
