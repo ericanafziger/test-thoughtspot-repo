@@ -141,7 +141,7 @@
 }
 
 .tab-module__tabHorizontal .tab-module__headerItem:after {
-  background-color: var(--ao-var-link-color;
+  background-color: var(--ao-var-link-color);
 }
 
   /* Checkboxes */
