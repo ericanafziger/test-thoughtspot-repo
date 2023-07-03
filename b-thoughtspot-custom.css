@@ -11,6 +11,7 @@
   --ts-var-root-text-transform: initial;
   --ao-var-primary-color: #00BABE;
   --ao-var-white: #FFFFFF;
+  --ao-var-link-color: #00747A;
 	
 /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
@@ -54,12 +55,20 @@
 }
 
 .pinboard-tab-module__tabNameContainer .pinboard-tab-module__tabNameEditor.pinboard-tab-module__tabHighlightOnSelected {
-  color: var(--ao-var-primary-color);
+  color: var(--ao-var-link-color);
 }
 .pinboard-tab-module__tabContainer:hover {
-  color: var(--ao-var-primary-color);
+  color: var(--ao-var-link-color);
 }
 .pinboard-tab-module__tabContainer.pinboard-tab-module__tabSelected {
-  border-bottom-color: var(--ao-var-primary-color);
+  border-bottom-color: var(--ao-var-link-color);
+}
+
+.pinboard-tab-panel-module__dropdownHeader p, .pinboard-tab-panel-module__dropdownHeader:hover p {
+  color: var(--ao-var-link-color);
+}
+
+.menu-module__item.menu-module__itemActive>.menu-module__itemInfo {
+  background-color: select background color
 }
 
