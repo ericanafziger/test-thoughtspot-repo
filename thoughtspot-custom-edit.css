@@ -56,6 +56,9 @@
 .pinboard-tab-module__tabNameContainer .pinboard-tab-module__tabNameEditor.pinboard-tab-module__tabHighlightOnSelected {
   color: var(--ao-var-primary-color);
 }
+.pinboard-tab-module__tabContainer.pinboard-tab-module__tabSelected {
+  border-bottom-color: var(--ao-var-primary-color);
+}
 
 /* body {
  background: var(--ts-var-root-background) !important;
