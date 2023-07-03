@@ -147,7 +147,11 @@
   /* Checkboxes */
 input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-module__customCheckbox {
   color: var(--ao-var-link-color);
-  border-color: var(--ao-var-link-color);
+  border-color: #a5d6d7;
+}
+
+.checkbox-module__customCheckbox, input[type=checkbox].checkbox-module__nativeCheckbox:checked+.checkbox-module__customCheckbox {
+  border-color: #a5d6d7;
 }
 
 .checkbox-module__customCheckbox [data-radiant-v2].icon-module__text-color {
