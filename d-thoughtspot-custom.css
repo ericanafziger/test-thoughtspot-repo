@@ -15,7 +15,7 @@
   --ao-var-selectable-row-hover: #F5F6F8;
   --ao-var-row-hover-table-row: #E5F9F9;
 	
-/* Nav Bar */
+  /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
   --ts-var-nav-background: initial;
   --ts-var-search-data-button-font-color: var(--ts-var-root-color);
@@ -54,10 +54,11 @@
   --ts-var-button--tertiary-color: var(--ts-var-root-color);
   --ts-var-button--tertiary-background: initial;
   --ts-var-button--tertiary--hover-background: initial;
-}
+	
   /* Chart */
   --ts-var-answer-chart-select-background: initial;
   --ts-var-answer-chart-hover-background: initial;
+
   /* Viz */
   --ts-var-viz-title-color: var(--ts-var-root-color);
   --ts-var-viz-title-font-family: var(--ts-var-root-font-family);
@@ -69,6 +70,7 @@
   --ts-var-viz-box-shadow: initial;
   --ts-var-viz-background: initial;
   --ts-var-viz-legend-hover-background:initial;
+
   /* Chip */
   --ts-var-chip-border-radius: initial;
   --ts-var-chip-title-font-family: var(--ts-var-root-font-family);
@@ -79,17 +81,20 @@
   --ts-var-chip--hover-color:var(--ts-var-root-color);
   --ts-var-chip--active-background:initial;
   --ts-var-chip--active-color:initial;
+
   /* Axis */
   --ts-var-axis-title-color: var(--ts-var-root-color);
   --ts-var-axis-title-font-family: var(--ts-var-root-font-family);
   --ts-var-axis-data-label-color: var(--ts-var-root-color);
   --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family);
+
   /* Menu */
   --ts-var-menu-color: var(--ts-var-root-color);
   --ts-var-menu-background: initial;
   --ts-var-menu-font-family: var(--ts-var-root-font-family);
   --ts-var-menu-text-transform: var(--ts-var-root-text-transform);
   --ts-var-menu--hover-background: var(--ao-var-selectable-row-hover);
+	
   /* Dialog */
   --ts-var-dialog-body-background: initial;
   --ts-var-dialog-body-color: var(--ts-var-root-color);
@@ -101,9 +106,11 @@
 .pinboard-tab-module__tabNameContainer .pinboard-tab-module__tabNameEditor.pinboard-tab-module__tabHighlightOnSelected {
   color: var(--ao-var-link-color);
 }
+
 .pinboard-tab-module__tabContainer:hover {
   color: var(--ao-var-link-color);
 }
+
 .pinboard-tab-module__tabContainer.pinboard-tab-module__tabSelected {
   border-bottom-color: var(--ao-var-link-color);
 }
