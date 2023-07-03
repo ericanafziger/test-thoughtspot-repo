@@ -12,6 +12,8 @@
   --ao-var-primary-color: #00BABE;
   --ao-var-white: #FFFFFF;
   --ao-var-link-color: #00747A;
+  --ao-var-selectable-row-hover: #F5F6F8;
+  --ao-var-row-hover-table-row: #E5F9F9;
 	
 /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
@@ -53,6 +55,48 @@
   --ts-var-button--tertiary-background: initial;
   --ts-var-button--tertiary--hover-background: initial;
 }
+  /* Chart */
+  --ts-var-answer-chart-select-background: initial;
+  --ts-var-answer-chart-hover-background: initial;
+  /* Viz */
+  --ts-var-viz-title-color: var(--ts-var-root-color);
+  --ts-var-viz-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-viz-title-text-transform: var(--ts-var-root-text-transform);
+  --ts-var-viz-description-color: var(--ts-var-root-color);
+  --ts-var-viz-description-font-family: var(--ts-var-root-font-family);
+  --ts-var-viz-description-text-transform: var(--ts-var-root-text-transform);
+  --ts-var-viz-border-radius: initial;
+  --ts-var-viz-box-shadow: initial;
+  --ts-var-viz-background: initial;
+  --ts-var-viz-legend-hover-background:initial;
+  /* Chip */
+  --ts-var-chip-border-radius: initial;
+  --ts-var-chip-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-chip-box-shadow: initial;
+  --ts-var-chip-background: initial;
+  --ts-var-chip-color: var(--ts-var-root-color);
+  --ts-var-chip--hover-background:initial;
+  --ts-var-chip--hover-color:var(--ts-var-root-color);
+  --ts-var-chip--active-background:initial;
+  --ts-var-chip--active-color:initial;
+  /* Axis */
+  --ts-var-axis-title-color: var(--ts-var-root-color);
+  --ts-var-axis-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-axis-data-label-color: var(--ts-var-root-color);
+  --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family);
+  /* Menu */
+  --ts-var-menu-color: var(--ts-var-root-color);
+  --ts-var-menu-background: initial;
+  --ts-var-menu-font-family: var(--ts-var-root-font-family);
+  --ts-var-menu-text-transform: var(--ts-var-root-text-transform);
+  --ts-var-menu--hover-background: var(--ao-var-selectable-row-hover);
+  /* Dialog */
+  --ts-var-dialog-body-background: initial;
+  --ts-var-dialog-body-color: var(--ts-var-root-color);
+  --ts-var-dialog-header-background: initial;
+  --ts-var-dialog-header-color: var(--ts-var-root-color);
+  --ts-var-dialog-footer-background: initial;
+}
 
 .pinboard-tab-module__tabNameContainer .pinboard-tab-module__tabNameEditor.pinboard-tab-module__tabHighlightOnSelected {
   color: var(--ao-var-link-color);
@@ -69,6 +113,10 @@
 }
 
 .menu-module__item.menu-module__itemActive>.menu-module__itemInfo {
-  background-color: select background color
+  background-color: var(--ao-var-hover-table-row);
+}
+
+.menu-module__item.menu-module__itemActive>.menu-module__itemInfo>.menu-module__itemText p {
+  color: var(--ts-var-root-color);
 }
 
