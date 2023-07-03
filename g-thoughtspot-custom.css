@@ -136,3 +136,20 @@
   border-color: var(--ao-var-border-color);
 }
 
+.tab-module__tabHorizontal .tab-module__headerItem.tab-module__headerItemSelected .tab-module__headerText {
+  color: var(--ao-var-link-color);
+}
+
+.tab-module__tabHorizontal .tab-module__headerItem:after {
+  background-color: var(--ao-var-link-color;
+}
+
+  /* Checkboxes */
+input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-module__customCheckbox {
+  color: var(--ao-var-link-color);
+  border-color: var(--ao-var-link-color);
+}
+
+.checkbox-module__customCheckbox [data-radiant-v2].icon-module__text-color {
+  fill: var(--ao-var-link-color);
+}
