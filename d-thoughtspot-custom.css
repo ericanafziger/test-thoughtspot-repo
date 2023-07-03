@@ -111,7 +111,11 @@
   color: var(--ao-var-link-color);
 }
 
-.pinboard-tab-module__tabContainer.pinboard-tab-module__tabSelected {
+[data-radiant-v2].icon-module__gray {
+  fill: var(--ao-var-link-color) !important;
+}
+
+.pinboard-tab-module__tabContainer.pinboard-tab-module__tabSelected, .pinboard-tab-panel-module__tabPanelDropdown {
   border-bottom-color: var(--ao-var-link-color);
 }
 
