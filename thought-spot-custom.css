@@ -1,16 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 @import url('https://6ix.com/ix-modules/fonts/css/fntello.css');
 @import url('https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css');
 
+:root {
+	
+  /* App */
+  --ts-var-root-color: #444444;
+  --ts-var-root-background: #F7F9FB;
+  --ts-var-root-font-family: 'Open-Sans',sans-serif;
+  --ts-var-root-text-transform: initial;
+  --ao-var-primary-color: #00BABE;
+  --ao-var-white: #FFFFFF;
+	
+/* Nav Bar */
+  --ts-var-nav-color: var(--ts-var-root-color);
+  --ts-var-nav-background: initial;
+  --ts-var-search-data-button-font-color: var(--ts-var-root-color);
+  --ts-var-search-data-button-background: initial;
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
+	
+  /* Search Bar */
+  --ts-var-search-bar-text-font-color: var(--ts-var-root-color);
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-text-font-style: initial;
+  --ts-var-search-bar-background: initial;
+  --ts-var-search-auto-complete-background: initial;
+  --ts-var-search-auto-complete-font-color: var(--ts-var-root-color);
+  --ts-var-search-auto-complete-subtext-font-color: initial;
+  --ts-var-search-navigation-button-background: initial;
+  --ts-var-search-bar-navigation-help-text-background: initial;
+  --ts-var-search-bar-auto-complete-hover-background: initial;
+	
+  /* Data Panel in Answers Tab */
+  --ts-var-answer-data-panel-background-color: initial;
+  --ts-var-answer-view-table-chart-switcher-background: initial;
+  --ts-var-answer-view-table-chart-switcher-active-background: initial;
+  --ts-var-answer-edit-panel-background-color: initial;
+	
+  /* Button */
+  --ts-var-button-border-radius: 4px;
+  --ts-var-button--icon-border-radius: initial;
+  --ts-var-button--primary-color: var(--ao-var-white);
+  --ts-var-button--primary-background: var(--ao-var-primary-color);
+  --ts-var-button--primary--hover-background: initial;
+  --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
+  --ts-var-button--secondary-color: var(--ts-var-root-color);
+  --ts-var-button--secondary-background: initial;
+  --ts-var-button--secondary--hover-background: initial;
+  --ts-var-button--secondary--font-family: var(--ts-var-root-font-family);
+  --ts-var-button--tertiary-color: var(--ts-var-root-color);
+  --ts-var-button--tertiary-background: initial;
+  --ts-var-button--tertiary--hover-background: initial;
+}
+
 body {
- background:#131313 !important;
- color:white !important;
- font-family:'Roboto',sans-serif
+ background: var(--ts-var-root-background) !important;
+ color: var(--ao-var-white) !important;
+ font-family: var(--ts-var-root-font-family);
 }
 
 body *:not(svg):not(i):not([class*="dx-"]) {
- font-family:'Roboto',sans-serif !important;
- color:white !important
+ font-family: var(--ts-var-root-font-family) !important;
+ color: var(--ao-var-white) !important;
 }
 .fa, .far, .fas {
 	font-family: "Font Awesome 5 Free" !important;
