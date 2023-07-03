@@ -46,15 +46,15 @@
   --ts-var-button--icon-border-radius: initial;
   --ts-var-button--primary-color: var(--ao-var-white);
   --ts-var-button--primary-background: var(--ao-var-primary-color);
-  --ts-var-button--primary--hover-background: initial;
+  --ts-var-button--primary--hover-background: #08A2A5;
   --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
   --ts-var-button--secondary-color: var(--ts-var-root-color);
-  --ts-var-button--secondary-background: initial;
-  --ts-var-button--secondary--hover-background: initial;
+  --ts-var-button--secondary-background: #F6F6F6;
+  --ts-var-button--secondary--hover-background: #EEEEEE;
   --ts-var-button--secondary--font-family: var(--ts-var-root-font-family);
-  --ts-var-button--tertiary-color: var(--ts-var-root-color);
-  --ts-var-button--tertiary-background: initial;
-  --ts-var-button--tertiary--hover-background: initial;
+  --ts-var-button--tertiary-color: var(--ao-var-primary-color);
+  --ts-var-button--tertiary-background: #E5F9F9;
+  --ts-var-button--tertiary--hover-background: #DBEEEE;
 	
   /* Chart */
   --ts-var-answer-chart-select-background: initial;
