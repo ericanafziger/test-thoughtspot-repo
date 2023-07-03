@@ -53,7 +53,7 @@
   --ts-var-button--tertiary--hover-background: initial;
 }
 
-body {
+/* body {
  background: var(--ts-var-root-background) !important;
  color: var(--ao-var-white) !important;
  font-family: var(--ts-var-root-font-family);
@@ -1942,4 +1942,4 @@ button[data-testid=query-visualizer-btn]::before {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
