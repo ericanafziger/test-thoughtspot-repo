@@ -166,14 +166,14 @@
 
 /* Textareas */
 
+[data-radiant-v2] .text-area-module__textarea {
+  border-color: var(--ao-var-border-color);
+  color: var(--ts-var-root-color);
+}
+
 [data-radiant-v2] .text-area-module__textarea:focus {
   border-color: var(--ao-var-dark-blue); 
   box-shadow: 0 0 0 2px var(--ao-var-border-active);
-}
-
-[data-radiant-v2] .text-area-module__textarea {
-  border-color: var(--ao-ar-border-color);
-  color: var(--ts-var-root-color);
 }
 
   /* Checkboxes */
