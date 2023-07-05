@@ -9,12 +9,16 @@
   --ts-var-root-background: #F7F9FB;
   --ts-var-root-font-family: 'Open-Sans',sans-serif;
   --ts-var-root-text-transform: initial;
+	
   --ao-var-primary-color: #00BABE;
   --ao-var-white: #FFFFFF;
   --ao-var-link-color: #00747A;
   --ao-var-selectable-row-hover: #F5F6F8;
   --ao-var-row-hover-table-row: #E5F9F9;
   --ao-var-border-color: #E3E3E3;
+  --ao-var-dark-blue: #304a71;
+  --ao-var-border-active: #ace9eb;
+  --ao-var-outine-stroke: #a5d6d7;
 	
   /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
@@ -136,6 +140,8 @@
   border-color: var(--ao-var-border-color);
 }
 
+/* Tabs */
+
 .tab-module__tabHorizontal .tab-module__headerItem.tab-module__headerItemSelected .tab-module__headerText {
   color: var(--ao-var-link-color);
 }
@@ -144,14 +150,28 @@
   background-color: var(--ao-var-link-color);
 }
 
+.tab-module__tabHorizontal .tab-module__headerItem:focus .tab-module__headerText, .tab-module__tabHorizontal .tab-module__headerItem:hover .tab-module__headerText {
+  color: var(--ao-var-link-color);
+}
+
+/* Inputs */
+[data-radiant-v2] .input-base-module__container {
+  border-color: var(--ao-var-border-color);
+}
+
+[data-radiant-v2] .input-base-module__container.input-base-module__hasFocus {
+  border-color: var(--ao-var-dark-blue); 
+  box-shadow: 0 0 0 2px var(--ao-var-border-active);
+}
+
   /* Checkboxes */
 input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-module__customCheckbox {
   color: var(--ao-var-link-color);
-  border-color: #a5d6d7;
+  border-color: var(--ao-var-outine-stroke);
 }
 
 .checkbox-module__customCheckbox, input[type=checkbox].checkbox-module__nativeCheckbox:checked+.checkbox-module__customCheckbox {
-  border-color: #a5d6d7;
+  border-color: var(--ao-var-outine-stroke);
 }
 
 .checkbox-module__customCheckbox [data-radiant-v2].icon-module__text-color {
