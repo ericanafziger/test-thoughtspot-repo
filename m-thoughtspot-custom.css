@@ -166,6 +166,11 @@
   box-shadow: 0 0 0 2px var(--ao-var-border-active);
 }
 
+.select-module__select .select-module__selectOpen.select-module__selectHead {
+  border-color: var(--ao-var-dark-blue); 
+  box-shadow: 0 0 0 2px var(--ao-var-border-active);	
+}
+
 /* Textareas */
 
 [data-radiant-v2] .text-area-module__textarea {
@@ -178,7 +183,21 @@
   box-shadow: 0 0 0 2px var(--ao-var-border-active);
 }
 
-  /* Checkboxes */
+/* Buttons */
+
+.button-module__backgroundLight.button-module__primary {
+  background-color: var(--ts-var-button--secondary-background);
+  color: var(--ts-var-button--secondary-color);
+}
+.button-module__backgroundLight.button-module__primary .button-module__buttonText {
+  color: var(--ts-var-button--secondary-color);
+}
+
+.button-module__backgroundLight.button-module__primary:not(.button-module__disabled):focus, .button-module__backgroundLight.button-module__primary:not(.button-module__disabled):hover {
+  background-color: var(  --ts-var-button--secondary--hover-background);
+}
+
+/* Checkboxes */
 input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-module__customCheckbox {
   color: var(--ao-var-link-color);
   border-color: var(--ao-var-outine-stroke);
