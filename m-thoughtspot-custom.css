@@ -231,3 +231,16 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 .tour-module__tooltip {
   background-color: var(--ao-var-dark-blue);
 }
+
+/* Homepage Tabs */
+
+.segment-control-module__segmentedControl .segment-control-module__segmentedItem.segment-control-module__selected .segment-control-module__innerText {
+  color: var(--ao-var-link-color);
+}
+.segment-control-module__segmentedControl .segment-control-module__segmentedItem:hover .segment-control-module__innerText {
+    color: var(--ts-var-root-color);
+}
+
+.select-module__roundedHead.select-module__selectOpen, .select-module__roundedHead.select-module__selectOpen:focus:not([data-focus-visible-added]) {
+  background-color: var(--ao-var-selectable-row-hover);	
+}
