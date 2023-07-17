@@ -171,6 +171,10 @@
   box-shadow: 0 0 0 2px var(--ao-var-border-active);	
 }
 
+.date-picker-module__active .date-picker-module__label { 
+  color: var(--ts-var-root-color);
+}
+
 /* Textareas */
 
 [data-radiant-v2] .text-area-module__textarea {
@@ -243,4 +247,19 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 
 .select-module__roundedHead.select-module__selectOpen, .select-module__roundedHead.select-module__selectOpen:focus:not([data-focus-visible-added]) {
   background-color: var(--ao-var-selectable-row-hover);	
+}
+
+/* Date Picker */ 
+
+.date-picker-module__button.date-picker-module__textButton {
+  color: var(--ao-var-link-color);
+}
+
+.react-datepicker__day.react-datepicker__day--range-end, .react-datepicker__day.react-datepicker__day--range-start, .react-datepicker__day.react-datepicker__day--selected {
+  background-color: var(--ao-var-row-hover-table-row);
+  color: var(--ao-var-link-color);
+}
+
+.react-datepicker__day:hover, .react-datepicker__month-text:hover, .react-datepicker__quarter-text:hover, .react-datepicker__year-text:hover {
+  background-color: var(--ao-var-selectable-row-hover);
 }
