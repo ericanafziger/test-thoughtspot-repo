@@ -189,17 +189,7 @@
 
 /* Buttons */
 
-.button-module__backgroundLight.button-module__primary {
-  background-color: var(--ts-var-button--secondary-background);
-  color: var(--ts-var-button--secondary-color);
-}
-.button-module__backgroundLight.button-module__primary .button-module__buttonText {
-  color: var(--ts-var-button--secondary-color);
-}
 
-.button-module__backgroundLight.button-module__primary:not(.button-module__disabled):focus, .button-module__backgroundLight.button-module__primary:not(.button-module__disabled):hover {
-  background-color: var(  --ts-var-button--secondary--hover-background);
-}
 
 /* Checkboxes */
 input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-module__customCheckbox {
