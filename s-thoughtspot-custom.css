@@ -20,6 +20,8 @@
   --ao-var-border-active: #ace9eb;
   --ao-var-outine-stroke: #a5d6d7;
   --ao-var-border-radius: 4px;
+  --ao-var-focus-teal: #009a9e;
+  --ao-var-off-white-focus: #eee;
 	
   /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
@@ -203,6 +205,14 @@
 .button-module__backgroundLight.button-module__tertiary {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+}
+
+.button-module__backgroundLight.button-module__primary.button-module__buttonSelected, .button-module__backgroundLight.button-module__primary:not(.button-module__disabled):active {
+  background-color: var(--ao-var-focus-teal);
+}
+
+.button-module__backgroundLight.button-module__secondary:not(.button-module__disabled):active {
+  background-color: var(--ao-var-off-white-focus);
 }
 
 /* KPIs */
