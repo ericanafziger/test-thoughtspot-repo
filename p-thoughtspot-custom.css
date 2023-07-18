@@ -9,14 +9,17 @@
   --ts-var-root-text-transform: initial;
 	
   --ao-var-primary-color: #00BABE;
+  --ao-var-text-light: #767676;
   --ao-var-white: #FFFFFF;
   --ao-var-link-color: #00747A;
   --ao-var-selectable-row-hover: #F5F6F8;
   --ao-var-row-hover-table-row: #E5F9F9;
+  --ao-var-row-hover-table-row-light: #F2FBFB;
   --ao-var-border-color: #E3E3E3;
   --ao-var-dark-blue: #304a71;
   --ao-var-border-active: #ace9eb;
   --ao-var-outine-stroke: #a5d6d7;
+  --ao-var-border-radius: 4px;
 	
   /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
@@ -44,7 +47,7 @@
   --ts-var-answer-edit-panel-background-color: initial;
 	
   /* Button */
-  --ts-var-button-border-radius: 4px;
+  --ts-var-button-border-radius: var(--ao-var-border-radius);
   --ts-var-button--icon-border-radius: initial;
   --ts-var-button--primary-color: var(--ao-var-white);
   --ts-var-button--primary-background: var(--ao-var-primary-color);
@@ -69,7 +72,7 @@
   --ts-var-viz-description-color: var(--ts-var-root-color);
   --ts-var-viz-description-font-family: var(--ts-var-root-font-family);
   --ts-var-viz-description-text-transform: var(--ts-var-root-text-transform);
-  --ts-var-viz-border-radius: initial;
+  --ts-var-viz-border-radius: var(--ao-var-border-radius);
   --ts-var-viz-box-shadow: initial;
   --ts-var-viz-background: initial;
   --ts-var-viz-legend-hover-background:initial;
@@ -138,8 +141,10 @@
   color: var(--ts-var-root-color);
 }
 
+/* Chip */
+
 .chip-base-module__filter {
-  border-color: var(--ao-var-border-color);
+  border-color: var(--ts-var-chip-background);
 }
 
 /* Tabs */
@@ -189,7 +194,26 @@
 
 /* Buttons */
 
+.button-module__backgroundLight.button-module__tertiary {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
 
+/* KPIs */
+
+.kpi-module__comparisonEmpty, .kpi-module__sublabel, .kpi-module__timeBucket {
+  color: var(--ao-var-text-light);
+}
+
+.kpi-module__backgroundColorComparison:hover {
+  background-color: var(--ao-var-selectable-row-hover);
+  border-radius: var(--ao-var-border-radius);
+}
+
+/* Sticky Header */
+.pinboard-header-module__embedPinboardHeader {
+  border-radius: 0 0 var(--ts-var-viz-border-radius) var(--ts-var-viz-border-radius);
+}
 
 /* Checkboxes */
 input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-module__customCheckbox {
@@ -252,4 +276,32 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 
 .react-datepicker__day:hover, .react-datepicker__month-text:hover, .react-datepicker__quarter-text:hover, .react-datepicker__year-text:hover {
   background-color: var(--ao-var-selectable-row-hover);
+}
+
+/* Tables */
+
+.bk-outline .ag-theme-alpine .ag-row:hover {
+  background-color: var(--ao-var-row-hover-table-row-light);
+}
+
+.table-module__cellOutline {
+  border-color: var(--ao-var-border-active) !important;
+}
+
+.table-module__cellSelected {
+  background-color: var(--ao-var-row-hover-table-row);
+}
+
+/* Banner */
+
+.banner-alert-module__container {
+  color: var(--ts-var-root-color);
+}
+
+.banner-alert-module__container.banner-alert-module__info {
+  background-color: var(--ao-var-row-hover-table-row);
+}
+
+[data-radiant-v2].icon-module__blue {
+  fill: var(--ao-var-primary-color);
 }
