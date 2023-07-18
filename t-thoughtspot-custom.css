@@ -22,6 +22,7 @@
   --ao-var-border-radius: 4px;
   --ao-var-focus-teal: #009a9e;
   --ao-var-off-white-focus: #eee;
+  --ao-var-gray-light: #f9f9f9;
 	
   /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
@@ -106,7 +107,7 @@
   /* Dialog */
   --ts-var-dialog-body-background: initial;
   --ts-var-dialog-body-color: var(--ts-var-root-color);
-  --ts-var-dialog-header-background: initial;
+  --ts-var-dialog-header-background: var(--ao-var-gray-light);
   --ts-var-dialog-header-color: var(--ts-var-root-color);
   --ts-var-dialog-footer-background: initial;
 }
@@ -325,3 +326,5 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 [data-radiant-v2].icon-module__blue {
   fill: var(--ao-var-primary-color);
 }
+
+
