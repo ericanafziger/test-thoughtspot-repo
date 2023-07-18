@@ -57,9 +57,9 @@
   --ts-var-button--secondary-background: #F6F6F6;
   --ts-var-button--secondary--hover-background: #EEEEEE;
   --ts-var-button--secondary--font-family: var(--ts-var-root-font-family);
-  --ts-var-button--tertiary-color: var(--ao-var-primary-color);
-  --ts-var-button--tertiary-background: #E5F9F9;
-  --ts-var-button--tertiary--hover-background: #DBEEEE;
+  --ts-var-button--tertiary-color: var(--ts-var-root-color);
+  --ts-var-button--tertiary-background: #F6F6F6;
+  --ts-var-button--tertiary--hover-background: #EEEEEE;
 	
   /* Chart */
   --ts-var-answer-chart-select-background: initial;
