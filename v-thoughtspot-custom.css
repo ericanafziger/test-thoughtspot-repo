@@ -228,7 +228,8 @@
 }
 
 /* Sticky Header */
-.pinboard-header-module__embedPinboardHeader {
+
+.pinboard-header-module__embedPinboardHeader.pinboard-header-module__stickyPinboardHeaderVisible {
   border-radius: 0 0 var(--ts-var-viz-border-radius) var(--ts-var-viz-border-radius);
 }
 
