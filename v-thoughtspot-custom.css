@@ -333,4 +333,19 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   display: none !important;
 }
 
+/* Active Filter State */
+
+.pinboard-content-module__gridContainer.pinboard-content-module__crossFilter {
+  background-color: var(--ao-var-row-hover-table-row-light);
+}
+
+.answer-content-header-module__container.answer-content-header-module__highlightHeaderBlue {
+  background: var(--ao-var-link-color); 
+}
+
+.pinboard-content-module__tile.pinboard-content-module__crossFiltersImpactedContainer {
+  background-image: none;
+  border: 2px solid var(--ao-var-link-color);
+}
+
 
