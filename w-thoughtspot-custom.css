@@ -38,10 +38,10 @@
   --ts-var-search-bar-background: initial;
   --ts-var-search-auto-complete-background: initial;
   --ts-var-search-auto-complete-font-color: var(--ts-var-root-color);
-  --ts-var-search-auto-complete-subtext-font-color: initial;
+  --ts-var-search-auto-complete-subtext-font-color: var(--ao-var-text-light);
   --ts-var-search-navigation-button-background: initial;
   --ts-var-search-bar-navigation-help-text-background: initial;
-  --ts-var-search-bar-auto-complete-hover-background: initial;
+  --ts-var-search-bar-auto-complete-hover-background: var(--ao-var-selectable-row-hover);
 	
   /* Data Panel in Answers Tab */
   --ts-var-answer-data-panel-background-color: initial;
@@ -187,6 +187,10 @@
   background-color: var(--ao-var-row-hover-table-row);
   color: var(--ao-var-primary-color);
   border-radius: var(--ao-var-border-radius);
+}
+
+.sage-completions-dropdown-module__completionsDropdown .sage-completions-dropdown-module__completionSubtext {
+  font-weight: 400;
 }
 
 /* Textareas */
