@@ -12,6 +12,7 @@
   --ao-var-text-light: #767676;
   --ao-var-white: #FFFFFF;
   --ao-var-link-color: #00747A;
+  --ao-var-link-hover-color: #004245;
   --ao-var-selectable-row-hover: #F5F6F8;
   --ao-var-row-hover-table-row: #E5F9F9;
   --ao-var-row-hover-table-row-light: #F2FBFB;
@@ -23,6 +24,7 @@
   --ao-var-focus-teal: #009a9e;
   --ao-var-off-white-focus: #eee;
   --ao-var-gray-light: #f9f9f9;
+  --ao-var-chip-base: #EAEDF1;
 	
   /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
@@ -84,11 +86,11 @@
   --ts-var-chip-border-radius: initial;
   --ts-var-chip-title-font-family: var(--ts-var-root-font-family);
   --ts-var-chip-box-shadow: initial;
-  --ts-var-chip-background: #EAEDF1;
+  --ts-var-chip-background: var(--ao-var-chip-base);
   --ts-var-chip-color: var(--ts-var-root-color);
   --ts-var-chip--hover-background: #D7DADE;
   --ts-var-chip--hover-color: var(--ts-var-root-color);
-  --ts-var-chip--active-background: #EAEDF1;
+  --ts-var-chip--active-background: var(--ao-var-chip-base);
   --ts-var-chip--active-color: var(--ts-var-root-color);
 
   /* Axis */
@@ -141,7 +143,9 @@
 }
 
 .menu-module__item.menu-module__itemActive>.menu-module__itemInfo>.menu-module__itemText p {
-  color: var(--ts-var-root-color);
+  color: var(--ts-var-link-color);
+  color: var(--ao-var-link-color);
+  font-weight: bold;
 }
 
 /* Chip */
@@ -353,4 +357,73 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   border: 2px solid var(--ao-var-link-color);
 }
 
+/* Homepage */
+
+.link-module__blue {
+  color: var(--ao-var-link-color);
+}
+
+.link-module__blue:hover {
+  color: var(--ao-var-link-hover-color);
+}
+
+.table-list-view-module__listViewContainer .list-view-row-container:hover {
+  background: var(--ao-var-row-hover-table-row-light);
+}
+
+.table-list-view-module__listViewContainer .ag-row-selected {
+  background: var(--ao-var-row-hover-table-row);
+}
+
+.select-module__roundedHead.select-module__selectOpen .select-module__selectedValue, .select-module__roundedHead.select-module__selectOpen:focus:not([data-focus-visible-added]) .select-module__selectedValue {
+  color: var(--ts-var-root-color);
+}
+
+.menu-module__item.menu-module__itemActive>.menu-module__itemInfo>.menu-module__rightText p {
+  color: var(--ao-var-link-color);
+  font-weight: bold;
+}
+
+.facet-sort-bar-module__facetSelectValue {
+  color: var(--ao-var-link-color) !important;
+}
+
+.avatar-module__nameLink:hover {
+  color: var(--ao-var-link-color);
+}
+
+.home-container-module__hrStyle {
+  display: none;
+}
+
+.segment-control-module__segmentedControl, .select-module__roundedHead {
+  background-color: var(--ao-var-selectable-row-hover);
+}
+
+.select-module__roundedHead:hover, .select-module__roundedHead:hover:focus:not([data-focus-visible-added]) {
+  background-color: var(--ao-var-chip-base);
+}
+
+/* KPI Carousel */
+
+.home-container-module__homepageCarouselContainer {
+  background-color: var(--ts-var-root-background);
+  border-color: var(--ao-var-border-color);
+}
+
+.homepage-carousel-card-module__card:not(.homepage-carousel-card-module__cardDisabled,.homepage-carousel-card-module__selected):hover {
+  border-color: var(--ao-var-primary-color);
+}
+
+/* Trending Sidebar */
+
+.trending-base-module__trendingWrapper.trending-base-module__hasGrayBackground {
+  background-color: var(--ts-var-root-background);
+}
+
+/* Tags */
+
+.tag-cell-module__tag .link-module__black {
+  color: var(--ts-var-root-color);
+}
 
