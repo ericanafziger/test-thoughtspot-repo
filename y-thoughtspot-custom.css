@@ -404,6 +404,10 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   background-color: var(--ao-var-chip-base);
 }
 
+.eureka-search-bar-module__withoutSeedQuestions {
+  background-color: var(--ao-var-chip-base);
+}
+
 /* KPI Carousel */
 
 .home-container-module__homepageCarouselContainer {
