@@ -411,6 +411,10 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   background-color: var(--ao-var-chip-base);
 }
 
+.details-cell-module__title {
+  font-weight: 400;
+}
+
 /* KPI Carousel */
 
 .home-container-module__homepageCarouselContainer {
@@ -419,11 +423,20 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 }
 
 .homepage-carousel-card-module__card:not(.homepage-carousel-card-module__cardDisabled,.homepage-carousel-card-module__selected):hover {
-  border-color: var(--ao-var-link-color);
+  border-color: var(--ao-var-primary-color);
 }
 
 .homepage-carousel-card-module__card .homepage-carousel-card-module__pinboardMetricsCardHeader {
-  background: var(--ao-var-link-color);
+  background: var(--ao-var-selectable-row-hover);
+  border-bottom: var(--ao-var-border-color);
+}
+
+.homepage-carousel-card-module__card .homepage-carousel-card-module__typographyHead {
+  font-weight: 400;
+}
+
+.homepage-carousel-card-module__cardAction [data-radiant-v2].icon-module__white {
+  fill: var(--ts-var-root-color);
 }
 
 /* Trending Sidebar */
