@@ -429,7 +429,7 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 
 .tag-cell-module__tag .link-module__black:hover {
   background-color: var(--ao-var-chip-base);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* KPI Carousel */
