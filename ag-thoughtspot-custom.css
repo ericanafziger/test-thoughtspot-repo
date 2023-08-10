@@ -412,8 +412,24 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   background-color: var(--ao-var-chip-base);
 }
 
+.eureka-search-box-module__goButton .button-module__sizeM.button-module__both {
+  border-radius: var(--ts-var-button-border-radius) 20px 20px var(--ts-var-button-border-radius);
+}
+
 .details-cell-module__title {
   font-weight: 400;
+}
+
+.tag-cell-module__tag .link-module__black {
+  padding: 3px 9px;
+  border: 1px solid var(--ao-var-border-color);
+  border-radius: var(--ts-var-viz-border-radius);
+  text-decoration: none;
+}
+
+.tag-cell-module__tag .link-module__black:hover {
+  background-color: var(--ao-var-chip-base);
+  text-decoration: underline;
 }
 
 /* KPI Carousel */
