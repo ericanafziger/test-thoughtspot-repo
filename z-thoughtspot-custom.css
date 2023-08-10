@@ -341,6 +341,9 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 .bk-embed-powered-by-ts-ribbon {
   display: none !important;
 }
+.bk-app-controller-container .bk-app-container .bk-app-content .bk-page-wrapper .bk-powered-by-ts-ribbon {
+  display: none;
+}
 
 /* Active Filter State */
 
