@@ -25,6 +25,7 @@
   --ao-var-off-white-focus: #eee;
   --ao-var-gray-light: #f9f9f9;
   --ao-var-chip-base: #EAEDF1;
+  --ao-var-chip-hover: #D7DADE;
 	
   /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
@@ -88,7 +89,7 @@
   --ts-var-chip-box-shadow: initial;
   --ts-var-chip-background: var(--ao-var-chip-base);
   --ts-var-chip-color: var(--ts-var-root-color);
-  --ts-var-chip--hover-background: #D7DADE;
+  --ts-var-chip--hover-background: var(--ao-var-chip-hover);
   --ts-var-chip--hover-color: var(--ts-var-root-color);
   --ts-var-chip--active-background: var(--ao-var-chip-base);
   --ts-var-chip--active-color: var(--ts-var-root-color);
@@ -440,8 +441,12 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   fill: var(--ts-var-root-color);
 }
 
-.carousel-module__chevronLeft .button-module__backgroundLight.button-module__secondary {
+.carousel-module__chevronLeft .button-module__backgroundLight.button-module__secondary, .carousel-module__chevronRight .button-module__backgroundLight.button-module__secondary {
   background-color: var(--ao-var-chip-base);
+}
+
+.carousel-module__chevronLeft:hover .button-module__backgroundLight.button-module__secondary, .carousel-module__chevronRight:hover .button-module__backgroundLight.button-module__secondary {
+  background-color: var(--ao-var-chip-hover);
 }
 
 /* Trending Sidebar */
