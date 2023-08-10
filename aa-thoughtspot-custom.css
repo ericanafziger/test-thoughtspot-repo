@@ -422,6 +422,10 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   border-color: var(--ao-var-primary-color);
 }
 
+.homepage-carousel-card-module__card .homepage-carousel-card-module__pinboardMetricsCardHeader {
+  background: var(--ao-var-primary-color);
+}
+
 /* Trending Sidebar */
 
 .trending-base-module__trendingWrapper.trending-base-module__hasGrayBackground {
