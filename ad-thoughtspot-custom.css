@@ -433,6 +433,7 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 
 .homepage-carousel-card-module__card .homepage-carousel-card-module__typographyHead {
   font-weight: 400;
+  color: var(--ts-var-root-color);
 }
 
 .homepage-carousel-card-module__cardAction [data-radiant-v2].icon-module__white {
