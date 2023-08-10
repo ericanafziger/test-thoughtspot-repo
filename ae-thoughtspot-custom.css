@@ -428,7 +428,7 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 
 .homepage-carousel-card-module__card .homepage-carousel-card-module__pinboardMetricsCardHeader {
   background: var(--ao-var-selectable-row-hover);
-  border-bottom: var(--ao-var-border-color);
+  border-bottom: 1px solid var(--ao-var-border-color);
 }
 
 .homepage-carousel-card-module__card .homepage-carousel-card-module__typographyHead {
@@ -438,6 +438,10 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 
 .homepage-carousel-card-module__cardAction [data-radiant-v2].icon-module__white {
   fill: var(--ts-var-root-color);
+}
+
+.carousel-module__chevronLeft .button-module__backgroundLight.button-module__secondary {
+  background-color: var(--ao-var-chip-base);
 }
 
 /* Trending Sidebar */
