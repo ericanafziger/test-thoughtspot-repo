@@ -432,6 +432,10 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   text-decoration: none;
 }
 
+.header-cell-module__headerCellContainer {
+  color: var(--ao-var-text-light);
+}
+
 /* KPI Carousel */
 
 .home-container-module__homepageCarouselContainer {
