@@ -419,11 +419,11 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
 }
 
 .homepage-carousel-card-module__card:not(.homepage-carousel-card-module__cardDisabled,.homepage-carousel-card-module__selected):hover {
-  border-color: var(--ao-var-primary-color);
+  border-color: var(--ao-var-link-color);
 }
 
 .homepage-carousel-card-module__card .homepage-carousel-card-module__pinboardMetricsCardHeader {
-  background: var(--ao-var-primary-color);
+  background: var(--ao-var-link-color);
 }
 
 /* Trending Sidebar */
