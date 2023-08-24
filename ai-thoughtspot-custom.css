@@ -461,6 +461,19 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   fill: var(--ts-var-root-color);
 }
 
+.homepage-carousel-card-module__card.homepage-carousel-card-module__selected, .homepage-carousel-card-module__card.homepage-carousel-card-module__selected:hover {
+  border: 1px solid var(--ao-var-dark-blue);
+  box-shadow: 0 0 0 3px var(--ao-var-border-active);
+}
+
+.card-module__cardWrapper:focus, .card-module__cardWrapper:hover {
+  border: 1px solid var(--ao-var-dark-blue);
+}
+
+.homepage-carousel-card-module__metricAction {
+  display: none;
+}
+
 .carousel-module__chevronLeft .button-module__backgroundLight.button-module__secondary, .carousel-module__chevronRight .button-module__backgroundLight.button-module__secondary {
   background-color: var(--ao-var-chip-base);
 }
