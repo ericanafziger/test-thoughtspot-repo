@@ -506,3 +506,28 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   letter-spacing: 0.25px;
 }
 
+/* All Sources */
+
+.tab-module__tabVertical .tab-module__headerItem.tab-module__headerItemSelected {
+  border-color: var(--ao-var-primary-color);
+  color: var(--ao-var-link-color);
+}
+
+.tab-module__tabVertical .tab-module__headerItem {
+  color: var(--ts-var-root-color);
+}
+
+.tab-module__tabVertical .tab-module__headerItem.tab-module__headerItemSelected .tab-module__headerText, .tab-module__tabVertical .tab-module__headerItem:hover, .tab-module__tabVertical .tab-module__headerItem:focus, .tab-module__tabVertical .tab-module__headerItem:hover .tab-module__headerText, .tab-module__tabVertical .tab-module__headerItem:focus .tab-module__headerText {
+  color: var(--ao-var-link-color);
+}
+
+.virtualized-sources-module__sourceItem {
+  border-radius: var(--ao-var-border-radius);
+  border-color: var(--ao-var-border-color);
+}
+
+.virtualized-sources-module__sourceItem.virtualized-sources-module__selected {
+  background-color: var(--ao-var-row-hover-table-row);
+  border-color: var(--ao-var-primary-color);
+  border-radius: var(--ao-var-border-radius);
+}
