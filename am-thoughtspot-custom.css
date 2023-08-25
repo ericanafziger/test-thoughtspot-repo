@@ -565,3 +565,14 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   border-color: var(--ao-var-primary-color);
   border-radius: var(--ao-var-border-radius);
 }
+
+/* Formula Editor */
+
+.formula-editor-module__assistantAccordionListItemHighlight {
+  background-color: var(--ao-var-row-hover-table-row-light);
+  color: var(--ao-var-link-color);
+}
+
+.formula-editor-module__assistantAccordionListItemHighlight:hover {
+  background-color: var(--ao-var-row-hover-table-row);
+}
