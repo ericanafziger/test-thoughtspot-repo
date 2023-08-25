@@ -311,6 +311,10 @@ input[type=checkbox].checkbox-module__nativeCheckbox:indeterminate+.checkbox-mod
   background-color: var(--ao-var-dark-blue);
 }
 
+h4.typography-module__section-label.typography-module__base.tour-module__title.typography-module__whiteSpace {
+  color: var(--ao-var-white);
+}
+
 /* Homepage Tabs */
 
 .segment-control-module__segmentedControl .segment-control-module__segmentedItem.segment-control-module__selected .segment-control-module__innerText {
