@@ -83,7 +83,7 @@
   --ts-var-viz-border-radius: var(--ao-var-border-radius);
   --ts-var-viz-box-shadow: initial;
   --ts-var-viz-background: initial;
-  --ts-var-viz-legend-hover-background:initial;
+  --ts-var-viz-legend-hover-background:var(--ao-var-chip-base);
 
   /* Chip */
   --ts-var-chip-border-radius: initial;
@@ -608,6 +608,13 @@ h4.typography-module__section-label.typography-module__base.tour-module__title.t
   background-color: var(--ao-var-row-hover-table-row);
   border-color: var(--ao-var-primary-color);
   border-radius: var(--ao-var-border-radius);
+}
+
+.virtualized-sources-module__sourceHeading {
+  font-family: var(--ts-var-root-font-family);
+  color: var(--ao-var-text-light);
+  font-size: 10px;
+  font-weight: 600px;
 }
 
 /* Explore Data Tab */
