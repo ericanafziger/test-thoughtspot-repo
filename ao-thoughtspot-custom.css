@@ -26,6 +26,8 @@
   --ao-var-gray-light: #f9f9f9;
   --ao-var-chip-base: #EAEDF1;
   --ao-var-chip-hover: #D7DADE;
+  --ao-var-modal-scrim: rgba(25,54,97,0.55);
+  --ao-var-bulk-actions-hover: #455C7F;
 	
   /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
@@ -119,6 +121,18 @@
   border-color: var(--ao-var-border-color);
 }
 
+.pinboard-edit-header-module__editActionHeader {
+  background-color: var(--ao-var-dark-blue) !important;
+}
+
+.pinboard-edit-header-module__editActionHeader .button-module__backgroundColored.button-module__tertiary, .pinboard-edit-header-module__editActionHeader .button-module__backgroundColored.button-module__tertiary .button-module__buttonText {
+  color: var(--ao-var-white);
+}
+
+.pinboard-edit-header-module__editActionHeader .button-module__backgroundColored.button-module__tertiary:not(.button-module__disabled):focus, .pinboard-edit-header-module__editActionHeader .button-module__backgroundColored.button-module__tertiary:not(.button-module__disabled):hover {
+  background-color: var(--ao-var-bulk-actions-hover);
+}
+
 .pinboard-tab-module__tabNameContainer .pinboard-tab-module__tabNameEditor.pinboard-tab-module__tabHighlightOnSelected {
   color: var(--ao-var-link-color);
 }
@@ -170,6 +184,31 @@
 }
 
 /* Inputs */
+
+[data-radiant-v2] .input-number-module__spinnerButton:focus {
+  background-color: var(--ao-var-row-hover-table-row);
+}
+
+.scheduler-module__dayIsNotSelected {
+  background: var(--ao-var-chip-base);
+}
+
+.scheduler-module__dayIsNotSelected:hover {
+  background: var(--ao-var-chip-hover);
+}
+
+.scheduler-module__dayIsSelected {
+  background-color: var(--ao-var-row-hover-table-row);
+}
+
+.typography-module__grayLight {
+  color: var(--ao-var-text-light);
+}
+
+.typography-module__accent {
+  color: var(--ao-var-link-color);
+}
+
 [data-radiant-v2] .input-base-module__container {
   border-color: var(--ao-var-border-color);
 }
@@ -448,6 +487,7 @@ h4.typography-module__section-label.typography-module__base.tour-module__title.t
 
 .eureka-search-bar-module__withoutSeedQuestions {
   background-color: var(--ao-var-chip-base);
+  border-radius: var(--ao-var-border-radius);
 }
 
 .eureka-search-box-module__goButton .button-module__sizeM.button-module__both {
@@ -570,6 +610,13 @@ h4.typography-module__section-label.typography-module__base.tour-module__title.t
   border-radius: var(--ao-var-border-radius);
 }
 
+/* Explore Data Tab */
+
+.answer-module__searchCurtain {
+  background-color: var(--ao-var-modal-scrim);
+
+
+
 /* Formula Editor */
 
 .formula-editor-module__assistantAccordionListItemHighlight {
@@ -580,3 +627,23 @@ h4.typography-module__section-label.typography-module__base.tour-module__title.t
 .formula-editor-module__assistantAccordionListItemHighlight:hover {
   background-color: var(--ao-var-row-hover-table-row);
 }
+
+.tokenizer-module__tokenizerContainer .tokenizer-module__token:after {
+  line-height: 14px;
+}
+
+/* Spot IQ Tab */
+
+div[data-testid="spotiq-list-container"] {
+  background-color:  var(--ao-var-white);
+  border-radius: var(--ao-var-border-radius);
+}
+
+.list-item-module__itemContainer.list-item-module__isSelected {
+  background: var(--ao-var-row-hover-table-row);
+}
+
+.list-item-module__itemContainer:hover {
+  background: var(--ao-var-selectable-row-hover);
+}
+
