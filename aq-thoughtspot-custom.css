@@ -614,15 +614,14 @@ h4.typography-module__section-label.typography-module__base.tour-module__title.t
   font-family: var(--ts-var-root-font-family);
   color: var(--ao-var-text-light);
   font-size: 10px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 
 /* Explore Data Tab */
 
 .answer-module__searchCurtain {
   background-color: var(--ao-var-modal-scrim);
-
-
+}
 
 /* Formula Editor */
 
