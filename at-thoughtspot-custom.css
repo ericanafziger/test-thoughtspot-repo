@@ -663,3 +663,7 @@ div[data-testid="spotiq-list-container"] {
   display: none;
 }
 
+.actions-bar-module__deleteButton {
+  margin-left: 0px;
+}
+
