@@ -659,11 +659,11 @@ div[data-testid="spotiq-list-container"] {
 
 /* TEMPORARY CSS PATCH */
 
-[data-testid="share-button"] {
+.homepage-metadata-list-module__actionBarContainer [data-testid="share-button"] {
   display: none;
 }
 
-.actions-bar-module__deleteButton {
+.homepage-metadata-list-module__actionBarContainer .actions-bar-module__deleteButton {
   margin-left: 0px;
 }
 
