@@ -657,3 +657,9 @@ div[data-testid="spotiq-list-container"] {
   background: var(--ao-var-selectable-row-hover);
 }
 
+/* TEMPORARY CSS PATCH */
+
+[data-testid="share-button"] {
+  display: none;
+}
+
