@@ -31,7 +31,7 @@
 	
   /* Nav Bar */
   --ts-var-nav-color: var(--ts-var-root-color);
-  --ts-var-nav-background: initial;
+  --ts-var-nav-background: var(--ao-var-dark-blue);
   --ts-var-search-data-button-font-color: var(--ts-var-root-color);
   --ts-var-search-data-button-background: initial;
   --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
