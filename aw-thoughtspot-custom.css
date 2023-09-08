@@ -502,6 +502,22 @@ h4.typography-module__section-label.typography-module__base.tour-module__title.t
   background-color: var(--ao-var-row-hover-table-row-light);
 }
 
+.eureka-search-bar-module__searchBarTitle {
+  display: none;
+}
+
+.eureka-search-bar-module__searchBarWrapper {
+  var(--ao-var-dark-blue);
+}
+
+.eureka-search-bar-module__emptySeedQuestions {
+  height: 140px;
+}
+
+.eureka-search-bar-module__homeSearchBarImg {
+  top: 30px;
+}
+
 .details-cell-module__title {
   font-weight: 400;
 }
