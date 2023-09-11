@@ -117,6 +117,10 @@
   --ts-var-dialog-footer-background: initial;
 }
 
+#_thoughtspot-embed {
+  border-radius: var(--ao-var-border-radius);
+}
+
 .attribute-filter-module__middleContainer {
   border-color: var(--ao-var-border-color);
 }
@@ -509,6 +513,7 @@ h4.typography-module__section-label.typography-module__base.tour-module__title.t
 .eureka-search-bar-module__searchBarWrapper {
   background-color: var(--ao-var-dark-blue);
   height: auto;
+  border-radius: var(--ao-var-border-radius) var(--ao-var-border-radius) 0 0;
 }
 
 .eureka-seed-questions-module__seedQuestionText {
