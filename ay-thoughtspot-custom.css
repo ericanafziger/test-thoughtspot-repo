@@ -508,6 +508,7 @@ h4.typography-module__section-label.typography-module__base.tour-module__title.t
 
 .eureka-search-bar-module__searchBarWrapper {
   background-color: var(--ao-var-dark-blue);
+  height: auto;
 }
 
 .eureka-seed-questions-module__seedQuestionText {
