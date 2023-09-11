@@ -507,7 +507,27 @@ h4.typography-module__section-label.typography-module__base.tour-module__title.t
 }
 
 .eureka-search-bar-module__searchBarWrapper {
-  var(--ao-var-dark-blue);
+  background-color: var(--ao-var-dark-blue);
+}
+
+.eureka-seed-questions-module__seedQuestionText {
+  color: var(--ao-var-link-color) !important
+}
+
+.eureka-seed-questions-module__seedQuestionWrapper {
+  height: auto;
+}
+
+.eureka-search-bar-module__toggleSeedQuestionsBtn .button-module__backgroundLight.button-module__primary {
+  background-color: transparent;
+}
+
+.eureka-search-bar-module__toggleSeedQuestionsBtn .button-module__backgroundLight.button-module__primary:hover {
+  background-color: var(--ao-var-bulk-actions-hover);
+}
+
+.eureka-search-bar-module__toggleSeedQuestionsBtn .button-module__backgroundLight.button-module__primary:focus {
+  background-color: var(--ao-var-bulk-actions-hover);
 }
 
 .eureka-search-bar-module__emptySeedQuestions {
